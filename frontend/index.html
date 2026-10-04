@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Video BG Remover</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="wrap">
+<h1>Video Background Remover</h1>
+<p class="sub">upload a short video (max 20 sec).</p>
+
+<input type="file" id="fileInput" accept="video/*">
+<br>
+<button id="go" onclick="start()">remove bg</button>
+
+<div id="status" class="status">idle</div>
+<div id="progWrap"><div id="prog"></div></div>
+
+<div class="videos">
+  <div>
+    <p>original</p>
+    <video id="orig" controls></video>
+  </div>
+  <div>
+    <p>result (transparent)</p>
+    <div class="checker">
+      <video id="res" controls autoplay loop></video>
+    </div>
+  </div>
+</div>
+
+<a id="dl" href="#" download="out.webm" style="display:none">download result</a>
+
+<script src="/static/script.js"></script>
+</div>
+</body>
+</html>

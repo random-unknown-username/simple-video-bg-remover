@@ -1,6 +1,9 @@
 # video bg remover
 
-for fun project. needed something for yt shorts edits, so made this lol. works kinda.
+for fun project. needed something for yt shorts edits, so did it myself, works pretty well for what it is
+
+<img width="1917" height="989" alt="image" src="https://github.com/user-attachments/assets/56ce69b7-8a0f-4e2b-9271-1d91815ee0dd" />
+
 
 # how to run:
 need python 3.10+ and ffmpeg installed

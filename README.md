@@ -13,7 +13,9 @@ cd backend
 uvicorn app:app --host 0.0.0.0 --port 8000
 ```
 
-open http://localhost:8000
+open when hosting locally- http://localhost:8000
+
+website- https://bg.hackhive.tech/simplebgremover
 
 notes:
 - uses rembg (u2netp) so kinda slow
